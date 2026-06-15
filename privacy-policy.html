@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redact Privacy Policy</title>
+  <style>
+    @font-face {
+      font-family: "Libertinus Serif";
+      src:
+        url("assets/fonts/libertinus-serif-regular.woff") format("woff"),
+        url("assets/fonts/libertinus-serif-regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Libertinus Serif";
+      src:
+        url("assets/fonts/libertinus-serif-italic.woff") format("woff"),
+        url("assets/fonts/libertinus-serif-italic.ttf") format("truetype");
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Libertinus Serif";
+      src:
+        url("assets/fonts/libertinus-serif-semibold.woff") format("woff"),
+        url("assets/fonts/libertinus-serif-semibold.ttf") format("truetype");
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Libertinus Serif";
+      src:
+        url("assets/fonts/libertinus-serif-bold.woff") format("woff"),
+        url("assets/fonts/libertinus-serif-bold.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      color-scheme: dark;
+      background: #050505;
+      color: #f7f4ef;
+      font-family: "Libertinus Serif", Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.62;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: #050505;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      background: #050505;
+      color: #f7f4ef;
+    }
+
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0 96px;
+    }
+
+    header {
+      margin-bottom: 52px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba(247, 244, 239, 0.22);
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      color: #fffdf8;
+      font-weight: 700;
+      line-height: 1.15;
+    }
+
+    h1 {
+      max-width: 11ch;
+      font-size: clamp(3rem, 10vw, 6.8rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin-top: 48px;
+      font-size: clamp(1.7rem, 4vw, 2.45rem);
+    }
+
+    h3 {
+      margin-top: 32px;
+      font-size: 1.25rem;
+    }
+
+    p {
+      margin: 16px 0 0;
+      color: rgba(247, 244, 239, 0.88);
+    }
+
+    ul {
+      margin: 16px 0 0;
+      padding-left: 1.25rem;
+      color: rgba(247, 244, 239, 0.88);
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: #fffdf8;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
+    }
+
+    strong {
+      color: #fffdf8;
+      font-weight: 700;
+    }
+
+    .meta {
+      max-width: 48rem;
+      margin-top: 24px;
+      color: rgba(247, 244, 239, 0.72);
+      font-size: 1rem;
+    }
+
+    .notice {
+      margin: 28px 0 0;
+      padding: 18px 20px;
+      border: 1px solid rgba(247, 244, 239, 0.22);
+      background: rgba(255, 255, 255, 0.045);
+    }
+
+    .section {
+      padding-top: 4px;
+    }
+
+    .divider {
+      margin-top: 64px;
+      padding-top: 52px;
+      border-top: 1px solid rgba(247, 244, 239, 0.22);
+    }
+
+    .todo {
+      color: #fffdf8;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 0 0.22em;
+    }
+
+    footer {
+      margin-top: 64px;
+      padding-top: 28px;
+      border-top: 1px solid rgba(247, 244, 239, 0.22);
+      color: rgba(247, 244, 239, 0.64);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 520px) {
+      :root {
+        font-size: 17px;
+      }
+
+      main {
+        width: min(100% - 28px, 760px);
+        padding: 44px 0 72px;
+      }
+
+      header {
+        margin-bottom: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta">For Redact: Privacy Screen</p>
+      <p class="meta">Effective date: June 15, 2026</p>
+      <p class="meta">Developer: mLaboratory</p>
+      <p class="meta">Contact: <a href="mailto:support@mlaboratory.tech">support@mlaboratory.tech</a></p>
+    </header>
+
+    <section class="section" aria-labelledby="summary">
+      <h2 id="summary">Summary</h2>
+      <p><strong>Redact has no ads, no account, and no Internet permission.</strong> The app is designed as a local privacy screen utility for Android. It stores its settings on your device and does not send your app list, screen content, preferences, or personal data to the developer.</p>
+      <p>This policy explains what Redact accesses, why each access is needed, how data is stored, and how you can control or delete it.</p>
+    </section>
+
+    <section class="section" aria-labelledby="data-redact-accesses">
+      <h2 id="data-redact-accesses">Data Redact Accesses</h2>
+      <p>Redact uses only the access needed to provide the privacy screen overlay experience.</p>
+      <ul>
+        <li><strong>Overlay access:</strong> Redact uses Android's display-over-other-apps permission to draw a translucent privacy overlay above other apps.</li>
+        <li><strong>Foreground app information:</strong> If you enable selected-app mode, Redact uses an Android accessibility service to detect which app is currently in the foreground. Redact uses this to decide whether the overlay should be visible for apps you selected.</li>
+        <li><strong>Installed app list:</strong> Redact reads the list of installed apps so you can choose which apps should trigger selected-app mode.</li>
+        <li><strong>Notification access:</strong> Redact shows a foreground service notification while the overlay is active, as required by Android.</li>
+        <li><strong>Local settings:</strong> Redact stores preferences such as overlay opacity, overlay mode, selected apps, and appearance settings on your device.</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="data-redact-does-not-collect">
+      <h2 id="data-redact-does-not-collect">Data Redact Does Not Collect</h2>
+      <ul>
+        <li>Redact does not create user accounts.</li>
+        <li>Redact does not include ads.</li>
+        <li>Redact does not request the Android Internet permission.</li>
+        <li>Redact does not upload data to the developer.</li>
+        <li>Redact does not sell or share personal and sensitive user data.</li>
+        <li>Redact does not intentionally read, store, capture, or transmit screen content.</li>
+        <li>Redact does not use analytics, advertising SDKs, or crash reporting services in the release app.</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="accessibility-service">
+      <h2 id="accessibility-service">Accessibility Service</h2>
+      <p>Redact's accessibility service is used for selected-app mode. When enabled, it detects app and window changes so Redact can determine whether a selected app is currently in the foreground.</p>
+      <p>The accessibility service is not used to read messages, passwords, form fields, or other screen content. It is not used for advertising, analytics, profiling, or tracking. Because Redact does not have Internet permission, accessibility information is not transmitted by the app.</p>
+      <p>You can turn off the accessibility service at any time in Android Settings.</p>
+    </section>
+
+    <section class="section" aria-labelledby="how-data-is-used">
+      <h2 id="how-data-is-used">How Data Is Used</h2>
+      <p>Redact uses local app data only to provide app functionality:</p>
+      <ul>
+        <li>To show or hide the privacy overlay.</li>
+        <li>To remember overlay opacity and appearance settings.</li>
+        <li>To remember which apps you selected for automatic overlay activation.</li>
+        <li>To keep the overlay running while it is active through Android's foreground service system.</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="storage-retention-deletion">
+      <h2 id="storage-retention-deletion">Storage, Retention, and Deletion</h2>
+      <p>Redact stores settings locally on your device. These settings remain until you change them, clear the app's storage, or uninstall the app.</p>
+      <p>To delete Redact's local data, you can uninstall the app or clear its app storage in Android Settings. Redact does not maintain a server-side copy of your data.</p>
+      <p>Depending on your Android and Google backup settings, the operating system may back up some app data. Redact does not operate or control Android system backup.</p>
+    </section>
+
+    <section class="section" aria-labelledby="third-parties">
+      <h2 id="third-parties">Third Parties</h2>
+      <p>Redact does not send user data to third-party services. The app uses Android platform APIs and open-source Android libraries to provide its local functionality.</p>
+      <p>If a future version adds a feature that collects, shares, or transmits user data, this policy and the Google Play Data safety disclosures will be updated before that feature is released.</p>
+    </section>
+
+    <section class="section" aria-labelledby="children">
+      <h2 id="children">Children</h2>
+      <p>Redact is a general utility app and is not directed to children. The app does not knowingly collect personal information from children.</p>
+    </section>
+
+    <section class="section" aria-labelledby="changes">
+      <h2 id="changes">Changes To This Policy</h2>
+      <p>This privacy policy may be updated when Redact changes. The effective date at the top of this page will be updated when the policy changes.</p>
+    </section>
+
+    <section class="section" aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>If you have questions about this privacy policy or Redact's privacy practices, contact <a href="mailto:support@mlaboratory.tech">support@mlaboratory.tech</a>.</p>
+    </section>
+
+    <footer>
+      <p>This page is the privacy policy for Redact: Privacy Screen by mLaboratory.</p>
+    </footer>
+  </main>
+</body>
+</html>
